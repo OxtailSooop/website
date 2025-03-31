@@ -1,0 +1,13 @@
+services:
+  website:
+    build: .
+    ports:
+      - 3000:3000/tcp
+  # db:
+  #   image: postgres
+  #   shm_size: 128mb
+  #   environment:
+  #     POSTGRES_DB: "blog"
+  #     POSTGRES_PASSWORD: "postgres"
+  #   volumes:
+  #     - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d

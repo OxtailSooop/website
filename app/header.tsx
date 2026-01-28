@@ -26,12 +26,6 @@ export function Header() {
 						link={"https://github.com/OxtailSooop"}
 						dict={"Github"}
 					/>
-					<Social
-						image={BlueSkyIcon}
-						classAdd={"scale-185"}
-						link={"https://bsky.app/profile/oxtailsooop.bsky.social"}
-						dict={"Bluesky"}
-					/>
 				</div>
 			</div>
 		</header>

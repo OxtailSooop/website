@@ -1,4 +1,4 @@
-// IDEA: open up a game when you click the heart or smthn, say to click the heart on CV :D
+// IDEA: open up a game when you click the heart or smthn
 
 export function Footer() {
 	return (
